@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="media_catalog.xsd">
+  <book id="b001" type="book">
+    <title>Clean Code</title>
+    <year>2008</year>
+    <genre>Programming</genre>
+    <author>Robert C. Martin</author>
+    <pages>464</pages>
+  </book>
+
+  <movie id="m001" type="movie">
+    <title>Inception</title>
+    <year>2010</year>
+    <genre>Sci-Fi</genre>
+    <director>Christopher Nolan</director>
+    <duration>148 minutes</duration>
+  </movie>
+
+  <videogame id="g001" type="videogame">
+    <title>The Witcher 3</title>
+    <year>2015</year>
+    <genre>RPG</genre>
+    <platform>PC</platform>
+    <developer>CD Projekt Red</developer>
+  </videogame>
+</catalog>
