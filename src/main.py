@@ -46,12 +46,14 @@ def main():
             for m in manager.view_all():
                 print(vars(m))
         elif choice == "3":
-            print("\n1. Full Catalog Report\n2. Movies Only Report")
+            print("\n1. Full Catalog Report\n2. Movies Only Report\n3. Book Only Report")
             sub_choice = input("Select report type: ")
             if sub_choice == "1":
                 reporter.generate_report("data/catalog_to_html.xsl", "data/full_catalog.html")
             elif sub_choice == "2":
                 reporter.generate_report("data/movies_only.xsl", "data/movies_only.html")
+            elif sub_choice == "3":
+                reporter.generate_report("data/book_only.xsl", "data/book_only.html")
             else:
                 print("Invalid choice.")
         elif choice == "4":
